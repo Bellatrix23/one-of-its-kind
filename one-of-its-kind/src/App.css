@@ -1,0 +1,42 @@
+/* Main App Container */
+.App {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  background-color: #f0ebe5;
+  color: #333;
+  padding: 40px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Headings */
+.product-heading {
+  font-size: 5rem;
+  color: #6b8e23;
+  margin: 40px 0 20px 0;
+  font-family: "Georgia", serif;
+}
+
+/* Product List */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Re-used Button Styles */
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:focus,
+button:active {
+  outline: none;
+  border: none;
+}

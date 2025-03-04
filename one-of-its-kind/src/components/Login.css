@@ -1,0 +1,50 @@
+/* Login Container */
+.login-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Center Heading */
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #6b8e23;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Input Fields */
+.login-container input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Center Button to Match Inputs */
+.login-container button {
+  width: calc(100%);
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6b8e23;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.login-container button:hover {
+  background-color: #4e6a17;
+}

@@ -1,0 +1,50 @@
+/* Leagal section overall styling */
+.legal-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Georgia", serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+h2 {
+  color: #6b8e23;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.legal-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.legal-section h3 {
+  color: #b08c7d;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.legal-section p {
+  color: #556b2f;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #6b8e23;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #4e6a17;
+}
